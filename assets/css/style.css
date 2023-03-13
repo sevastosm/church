@@ -162,6 +162,7 @@ p {
 a.link img {
   max-width: 50px;
   margin-left: 20px;
+  border-radius: 20%;
 }
 
 @media (max-width: 992px) {
@@ -316,8 +317,6 @@ a.link img {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
-    display: block;
-    position: absolute;
     left: 130px;
   }
 
@@ -349,7 +348,7 @@ a.link img {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  /* bottom: 15px; */
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -597,7 +596,7 @@ section {
 
 .webelieve {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #919191;
   text-align: center;
   color: inherit;
